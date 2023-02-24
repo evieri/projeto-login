@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login > h1 {
+        display: none;
+    }
+
+    .left-login-image {
+        width: 50vw;
+        margin-bottom: 10%;
+    }
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-login {
+        width: 90%;
+    }
+}
