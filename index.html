@@ -9,19 +9,27 @@
 </head>
 <body>
     <main>
-        <form action="" method="post">
-            <div class="caixa">
-                <legend>LOGIN</legend>
-
-                <label for="user">Usuário</label>
-                <input type="text" id="user" name="user" placeholder="Usuário">
-
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Senha">
-
-                <input type="button" value="LOGIN" id="login-button" name="login-button">
+        <div class="left-login">
+            <h1>Faça login<br>E entre para o nosso time</h1>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <form action="" method="post">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
+                        <label for="user">Usuário</label>
+                        <input type="text" id="user" name="user" placeholder="Usuário">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+                    </div>
+                    <!-- <input type="button" value="LOGIN" id="login-button" name="login-button"> -->
+                    <button class="login-button">Login</button>
+                </form>
             </div>
-        </form>
+            </form>
+        </div>
     </main>
 </body>
 </html>
